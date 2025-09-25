@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikhael Prajna Jorge - Desenvolvedor Full Stack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MPJ</a>
+            </div>
+            
+            <!-- Mobile menu toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Olá, eu sou</p>
+                    <h1 class="hero-name">Mikhael Prajna Jorge</h1>
+                    <h2 class="hero-title">Desenvolvedor Full Stack</h2>
+                    <p class="hero-description">
+                        Especializado em desenvolvimento web e análise de dados, com foco em soluções eficientes e inovadoras.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Entre em Contato</a>
+                        <a href="#projects" class="btn btn-secondary">Ver Projetos</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line">
+                                <span class="keyword">const</span> 
+                                <span class="variable">developer</span> = {
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">name</span>: 
+                                <span class="string">'Mikhael'</span>,
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">skills</span>: [
+                                <span class="string">'Python'</span>, 
+                                <span class="string">'JavaScript'</span>],
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">passion</span>: 
+                                <span class="string">'Problem Solving'</span>
+                            </div>
+                            <div class="code-line">}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou um profissional com 2 anos de experiência, entregando inúmeros projetos hoje para a DSV Air & Sea, 
+                        empresa na qual trabalho. Nesse meio tempo, aprendi a trabalhar com linguagens como Python, tendo mais 
+                        enfoque nas bibliotecas como Streamlit, Pandas, RE.
+                    </p>
+                    <p>
+                        Possuo conhecimento na construção de LLMs e de tratamento de dados na área, juntamente com o conhecimento 
+                        em C++! Ademais, sou uma pessoa que gosta de trabalhar tanto em equipe quanto sozinho, sendo bem receptivo 
+                        quanto a novas ideias e maneiras de lidar com problemas.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Anos de Experiência</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projetos Concluídos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Tecnologias</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiência</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Auxiliar sistêmico para draft surveyors</h3>
+                        <h4>NAABSA Marine & Surveyor</h4>
+                        <p class="timeline-date">Fevereiro/2024 - Fevereiro/2025</p>
+                        <p>
+                            Auxiliar na operação dos draft surveyors tendo controle em planilhas de Excel e relatórios em Word.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Assistente de desembaraço</h3>
+                        <h4>DSV Air & Sea</h4>
+                        <p class="timeline-date">Fevereiro/2025 - Presente</p>
+                        <p>
+                            Desenvolvendo automações para os processos do desembaraço aduaneiro.
+                            Fui capaz de criar flows no PowerAutomate, VBA, Macro Excel, scripts em Python e muito mais que agregassem o fluxo operacional. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Tratamento de Dados para Catálogo de Produtos</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/mukamoda/TratamentoDeDadosParaClientesOSGT.git" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Script consultado para o tratamento das respostas dos importadores para o Catálogo de Produtos da Receita Federal 
+                        feito na plataforma OSGT, adequando-as para o modelo correto de integração ao software.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">NumPy</span>
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">RE</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Currículo em HTML e CSS</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/mukamoda/Curr-culoHTMLeCSS.git" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Projeto para a estruturação base de um currículo em HTML e CSS!
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Tecnologias</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-excel"></i>
+                            <span>Excel Avançado</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VBA</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>PowerAutomate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills">
+                        <div class="soft-skill">Comunicativo</div>
+                        <div class="soft-skill">Atencioso</div>
+                        <div class="soft-skill">Prestativo</div>
+                        <div class="soft-skill">Focado</div>
+                        <div class="soft-skill">Engajado</div>
+                        <div class="soft-skill">Resolução de Problemas</div>
+                        <div class="soft-skill">Gestão de Pessoas</div>
+                        <div class="soft-skill">Trabalho em Equipe</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>Estou sempre aberto a novas oportunidades e projetos interessantes. Entre em contato!</p>
+                    
+                    <div class="contact-methods">
+                        <a href="https://mail.google.com/mail" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>mikhael.prajna@gmail.com</p>
+                            </div>
+                        </a>
+                        
+                        <a href="#" class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(13) 99176-8148</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/mikha%C3%ABl-prajna-7a743429a/" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>Mikhael Prajna Jorge</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/mukamoda" class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>Github</h4>
+                                <p>mukamoda</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mikhael Prajna Jorge. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
